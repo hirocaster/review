@@ -252,10 +252,10 @@ module ReVIEW
         puts "●図#{get_chap}.#{@chapter.image(id).number}　#{compile_inline(caption)}"
       end
       if @chapter.image(id).bound?
-        puts @chapter.image(id).path
+        puts '◆red/◆' + id + '◆/red◆'
       else
         lines.each do |line|
-          puts line
+          puts '◆red/◆' + id + '◆/red◆'
         end
       end
     end

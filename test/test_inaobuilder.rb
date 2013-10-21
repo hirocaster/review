@@ -182,7 +182,7 @@ EOS
 ■図
 　図1.1
 ●図1.1　図のタイトル
-ダミー
+◆red/◆id◆/red◆
 EOS
       assert_equal expected, compiler.compile(chapter)
     end
